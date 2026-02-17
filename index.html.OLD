@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>ALPHABIT</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<!-- <link rel="stylesheet" href="dist/theme/black.css"> -->
+		<link rel="stylesheet" href="dist/theme/night.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<!-- <link rel="stylesheet" href="plugin/highlight/monokai.css"> -->
+		<link rel="stylesheet" href="plugin/highlight/zenburn.css">
+		<style>
+			.reveal h1, b, .stabilo-boss, .reveal .progress {color: #0b8f40;} /* il colore ufficial del Golem è #0b8f40 */
+			.reveal li {font-size: 0.8em;}
+			.reveal h1, .reveal h2 {font-size: 1.5em;}
+			.arguments-index {font-size: 1em; font-weight: bold; color: #0b8f40;}
+			.resizing-images {width: 10em}
+			.images {border: 8px solid #0b8f40;}
+			.description-area {text-align: left; font-size: 0.5em}
+			.error {color: red;}
+			.gennaro {width: 10em; height: 5em; float: right; margin: 10px;}
+			.leandro {width: 10em; height: 6em; float: right;margin: 10px;}
+			.privacyboy {width: 20em; height: 5em; float: right; margin: 10px;}
+			.privacy-boy-big-img {height: 9em; margin: 1em}
+			.golem-border-img {border-left: 5px solid #0b8f40;}
+			.golem-border-big-img {border-left: 10px solid #0b8f40;}
+			.reveal h2, .reveal h3, .reveal h4, .reveal h5 {font-size: 1em;}
+			.caption {text-align: center; font-size: 0.4em}
+			.caption-big-img {text-align: left; font-size: 0.4em}
+			.big-images {width: 30em}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="index">
+					<h1>ALPHABIT</h1>
+					<p id="date"></p>
+				</section>
+				<section>
+					<section id="presentation">
+					<h2>È un corso di <b>Alfabetizzazione Informatica</b></h2>
+					<ul>
+						<li class="fragment fade-left">Aggiornato alle nuove tecnologie</li>
+						<li class="fragment fade-left">Suddiviso in <em>10 lezioni</em></li>
+						<li class="fragment fade-left">Basato sul sistema libero <b>Linux</b> 🐧</li>
+						<li class="fragment fade-left">Pratico e adatto a tutti</li>
+					</ul>
+					</section>
+					<section>
+						<p class="description-area">Il mondo moderno è immerso nella tecnologia informatica.</p>
+						<p class="description-area fragment fade-right"><em>Internet, Cloud, Domotica, Motori di Ricerca, SmartWatch, Social Media, Server, Droni...</em></p>
+						<div class="r-hstack justify-left">
+							<div class="gennaro fragment fade-right"><img class="golem-border-img" data-src="images/smart-home.gif"></div>
+							<div class="gennaro fragment fade-right"><img class="golem-border-img" data-src="images/server-room.gif"></div>
+							<div class="gennaro fragment fade-right"><img class="golem-border-img" data-src="images/drone.gif"></div>
+						</div>
+						<p class="description-area fragment fade-up">Ma non tutti riescono a comprenderla, soprattutto le persone <em class="stabilo-boss">non native digitali</em>.</p>
+						<p class="description-area fragment fade-up">Questo comporta una difficoltà d'uso nella vita di tutti i giorni.</p>
+					</section>
+					<section>
+						<p class="description-area"><em>"Prodotti informatici, sicurezza informatica..."</em> Tanti discorsi...</p>
+						<p class="description-area fragment fade-up">Ma cos'è l'<b>Informatica</b>?</p>
+						<p class="description-area fragment fade-up">Per quanto sia strano, non è propriamente <em class="error">la scienza dei computer</em>, ma una branca scientifica che tratta i metodi per gestire l'<em class="stabilo-boss">Informazione</em>.</p>
+						<div class="r-hstack justify-left">
+							<div class="gennaro fragment fade-up"><img class="golem-border-img" data-src="images/neutron-star.gif"><p class="caption">La configurazione atomica di una stella di neutroni è <em class="stabilo-boss">informazione</em>.</p></div>
+							<div class="gennaro fragment fade-up"><img class="golem-border-img" data-src="images/write-text.gif"><p class="caption">Il contenuto di un testo scritto è <em class="stabilo-boss">informazione</em>.</p></div>
+						</div>
+					</section>
+					<section>
+						<p class="description-area">E il <em class="stabilo-boss">Computer</em>?</p>
+						<p class="description-area fragment fade-up">E' lo strumento apposito per organizzarla e archiviarla.</p>
+						<p class="description-area fragment fade-up">Chiamato anche <b>calcolatore</b> e <b>elaboratore</b> <em>(dall'inglese "to compute", calcolare)</em>,</p>
+						<p class="description-area fragment fade-up">tratta l'informazione sotto forma di dati calcolabili e/o elaborandola in algoritmi (<em>sequenze di azioni</em>).</p>
+						<div class="r-hstack justify-left">
+							<div class="privacyboy fragment fade-up"><img class="golem-border-img" data-src="images/algorithm.gif"><p class="caption">Uno stupidissimo esempio</p></div>
+						</div>
+					</section>
+					<section>
+						<p class="description-area">Ha una sua <em class="stabilo-boss">Struttura</em>.</p>
+						<p class="description-area fragment fade-up"><b>Hard</b>ware: Tutto ciò che riguarda le componenti elettroniche e i suoi collegamenti. Es. <em>Processore, Scheda Video, Alimentatore...</em></p>
+						<p class="description-area fragment fade-up"><b>Soft</b>ware: I programmi e i processi annessi, tra cui spicca il sistema operativo. Es. <em>Notepad, Excel, Photoshop...</em></p>
+					</section>
+					<section>
+						<div class="r-hstack justify-left">
+							<div><img class="golem-border-big-img" data-src="images/mobo.webp"><p class="caption">Componenti elettroniche in una scheda madre.</p></div>
+						</div>
+					</section>
+					<section>
+						<div class="r-hstack justify-left">
+							<div class="big-images"><img class="golem-border-big-img" data-src="images/schermata.webp"><p class="caption">Il Desktop del mio PC, con il <em>Menu Start</em> aperto.</p></div>
+						</div>
+					</section>
+					<section>
+						<p class="description-area">In passato erano "<em>stanzoni elettronici</em>". Oggi sono ovunque e di svariati tipi.</p>
+						<p class="description-area fragment fade-up">Esamineremo solo le due tipologie più diffuse:</p>
+						<div class="r-hstack justify-left">
+							<div class="leandro fragment fade-up"><img class="golem-border-img" data-src="images/pc.gif"><p class="caption">Il <b>PC</b></p></div>
+							<div class="leandro fragment fade-up"><img class="golem-border-img" data-src="images/phone.gif"><p class="caption">Lo <b>Smartphone</b></p></div>
+						</div>
+					</section>
+					<section>
+						<p class="description-area">Noto come <em class="stabilo-boss">Il computer per tutti</em>.</p>
+						<p class="description-area fragment fade-up">Accenneremo alla storia del <b>Personal Computer</b>, le necessità dei primi anni, le sue evoluzioni e gli sguardi al futuro.</p>
+						<div class="r-hstack justify-left">
+							<div class="privacyboy privacy-boy-big-img fragment fade-up"><img class="golem-border-big-img" data-src="images/olivetti101.jpg"></div>
+							<div class="gennaro fragment fade-up"><p class="description-area"><em>Una Olivetti Programma 101</em>.</p><p class="caption-big-img">Gli Olivetti della serie Programma erano calcolatori ad uso domestico.</p><p class="caption-big-img">Sebbene mancassero molte componenti oggi fondamentali, sono stati i primi prodotti in Italia.</p></div>
+						</div>
+					</section>
+					<!-- <section>
+						<p class="description-area">Assembleremo un <em class="stabilo-boss">laptop</em>, il più diffuso dei computer portatili e un "<em class="stabilo-boss">fisso</em>".</p>
+						<p class="description-area fragment fade-right">Analizzeremo le differenze tra di essi (<em>form factor delle scheda madri, dimensioni delle ram...</em>).</p>
+						<p class="description-area fragment fade-right">La gestione dell'alimentazione (batterie Li-Po, ).</p>
+					</section>
+					<section>
+						<p class="description-area">le componenti (cpu, ram), nomenclature</p>
+
+					</section> -->
+					<section>
+						<p class="description-area">La tipologia più diffusa dei "<em>portatili</em>", lo <b>Smartphone</b>, ha solidificato il concetto del "per tutti".</p>
+						<p class="description-area fragment fade-up">Portando il digitale nelle mani di persone di ogni età.</p>
+					</section>
+					<section>
+						<div class="r-hstack justify-left">
+							<div class="privacyboy privacy-boy-big-img"><img data-src="images/oneui1.jpg"><p class="caption">Home</p></div>
+							<div class="privacyboy privacy-boy-big-img fragment fade-up"><img data-src="images/oneui2.jpg"><p class="caption">Applicazioni utente</p></div>
+							<div class="privacyboy privacy-boy-big-img fragment fade-up"><img data-src="images/oneui3.jpg"><p class="caption">Barra delle notifiche estesa</p></div>
+						</div>
+					</section>
+					<section>
+						<p class="description-area">Far parlare le sue componenti fra loro o parlarci direttamente è <em>stressante</em> per un essere umano.</p>
+						<p class="description-area fragment fade-up">Devi comunicare con la sua lingua, considerarne i protocolli...</p>
+						<p class="description-area fragment fade-up">Per questo esiste il <b>Sistema Operativo</b>.</p>
+						<p class="description-area fragment fade-up">Un mediatore che mette in relazione l'umano e la macchina.</p>
+						<div class="r-hstack justify-left">
+							<div class="gennaro fragment fade-up"><img data-src="images/linux_mint.png"></div>
+							<div class="gennaro fragment fade-up"><img data-src="images/debian.png"></div>
+							<div class="gennaro fragment fade-up"><img data-src="images/android.png"></div>
+						</div>
+					</section>
+					<!-- <section>
+						<p class="description-area">l'installazione, il bios, il terminale, la gui'</p>
+
+					</section> -->
+					<section>
+						<p class="description-area">Ma per un computer, fuori cosa c'è?</p>
+						<p class="description-area fragment fade-up">Il mondo esterno per lui è la <b>Rete</b>.</p>
+						<p class="description-area fragment fade-up">Che sia circoscritta (<em class="stabilo-boss">Local Area Network</em>) o estesa (<em class="stabilo-boss">Internet</em>), è il mezzo con cui comunicano.</p>
+						<div class="r-hstack justify-left fragment fade-up">
+							<div class="big-images"><img class="golem-border-img" data-src="images/cpt.png"><p class="caption">Test di invio pacchetti con <em>Cisco Packet Tracer</em>.</p></div>
+					</section>
+					<section>
+						<p class="description-area">Se Internet è lo scheletro del mondo digitale, il <b>Web</b> è il contenuto intorno.</p>
+						<p class="description-area fragment fade-up">Nato negli anni 90, il Web ha permesso il diffondersi della conoscenza.</p>
+						<div class="r-hstack justify-left">
+							<div class="gennaro fragment fade-up"><p class="description-area"></p><p class="caption-big-img">Inizialmente in forma di semplici siti statici, come <em class="stabilo-boss">https://info.cern.ch/hypertext/WWW/TheProject.html</em>, qui a fianco</p><p class="caption-big-img">Evolvendosi a quelli attuali:</p><p class="caption-big-img">Social network come Instagram e Mastodon, piattaforme come Netflix e Owncast.</p></div>
+							<div class="privacyboy privacy-boy-big-img fragment fade-up"><img class="golem-border-big-img" data-src="images/cern.webp"></div>
+						</div>
+					</section>
+					<section>
+						<p class="description-area">Dall'avvento del Web, gli utenti incominciano a modificarlo, a plasmarlo a loro piacimento.</p>
+						<p class="description-area fragment fade-up">Questo comporta la creazione di <em>regole</em> nelle comunità digitali.</p>
+						<p class="description-area fragment fade-up">La <b>Netiquette</b>, un codice di galateo e comportamento del buon vivere nella Rete.</p>
+						<div class="r-hstack justify-left">
+							<div class="privacyboy privacy-boy-big-img fragment fade-up"><img class="golem-border-img" data-src="images/flood.webp"><p class="caption">"<em>Flooddare</em>"</p></div>
+						</div>
+					</section>
+					<section>
+						<p class="description-area">Tra le spiegazioni e i suggerimenti, vedremo insieme come attuarne <b>La Manutenzione</b>.</p>
+						<p class="description-area fragment fade-up"></p>
+					</section>
+					<section>
+						<p class="description-area">In sintesi,</p>
+						<!-- con link alle risorse della pagina -->
+					</section>
+					<section>
+						<p class="description-area">Verranno trattati e approfonditi argomenti e metodi d'uso quotidiano</p>
+						<p class="description-area fragment fade-up">Argomenti di natura pratica verrano approfonditi, mentre lasceremo alla teoria e alle conoscenze avanzate un'infarinatura generale.</p>
+					</section>
+				</section>
+				<!-- Personal Computer
+				<section>
+					<section id="pc-index">
+						<h2><b>il PC</b></h2>
+						<img class="images resizing-images" data-src="images/pc.gif">
+					</section>
+					<section id="pc-sm">
+						<p class="arguments-index fragment semi-fade-out">Indice:</p>
+						<ul>
+							<li class="fragment fade-left"><a href="#/pc-sm-1">Una breve storia del Personal Computer</a></li>
+							<li class="fragment fade-left"><a href="#/pc-sm-2">Accenni alla sua <em>Architettura</em></a></li>
+							<li class="fragment fade-left"><a href="#/pc-sm-3">Le componenti del suo <em>corpo</em></a></li>
+							<li class="fragment fade-left"><a href="#/pc-sm-4">Il sistema operativo</a></li>
+						</ul>
+					</section>
+					<section id="pc-sm-1"></section>
+					<section id="pc-sm-2"></section>
+					<section id="pc-sm-3"></section>
+					<section id="pc-sm-4"></section>
+				</section>
+				 -->
+				<!-- Smartphone
+				<section>
+					<section id="phone-index">
+						<h2><b>Lo Smartphone</b></h2>
+						<img class="images" data-src="images/phone.gif">
+					</section>
+					<section id="phone-sm">
+						<p class="arguments-index fragment semi-fade-out">Indice:</p>
+						<ul>
+							<li class="fragment fade-left"><a href="#/phone-sm-1">Una minuscola storia sui <em>mobile</em></a></li>
+							<li class="fragment fade-left"><a href="#/phone-sm-2">Le sue componenti</a></li>
+							<li class="fragment fade-left"><a href="#/phone-sm-3">Il nipote "acquisito" di <b>Linux</b> 🐧</a></li>
+						</ul>
+					</section>
+					<section id="phone-sm-1"></section>
+					<section id="phone-sm-2"></section>
+					<section id="phone-sm-3"></section>
+				</section>
+				 -->
+				<!-- Internet
+				<section>
+					<section id="net-index">
+						<h2><b>La grande rete globale</b></h2>
+						<img class="images resizing-images" data-src="images/net.gif">
+					</section>
+					<section id="net-sm">
+						<p class="arguments-index fragment semi-fade-out">Indice:</p>
+						<ul>
+							<li class="fragment fade-left"><a href="#/net-sm-1">Da ARPANET al Web 2.0</a></li>
+							<li class="fragment fade-left"><a href="#/net-sm-2"><em>"Sincronizzo?" "Acconsento!"</em></a></li>
+							<li class="fragment fade-left"><a href="#/net-sm-3">La struttura di una rete</a></li>
+							<li class="fragment fade-left"><a href="#/net-sm-4">La ricerca nel web</a></li>
+						</ul>
+					</section>
+					<section id="net-sm-1"></section>
+					<section id="net-sm-2"></section>
+					<section id="net-sm-3"></section>
+					<section id="net-sm-4"></section>
+				</section>
+				 -->
+				<!-- Sicurezza
+				<section>
+					<section id="sec-index">
+						<h2><b>Sicurezza e Netiquette digitale</b></h2>
+						<img class="images resizing-images" data-src="images/netiquette.gif">
+					</section>
+					<section id="sec-sm">
+						<p class="arguments-index fragment semi-fade-out">Indice:</p>
+						<ul>
+							<li class="fragment fade-left"><a href="#/sec-sm-1">Netiquette, questa sconosciuta</a></li>
+							<li class="fragment fade-left"><a href="#/sec-sm-2">Cura dei dispositivi</a></li>
+							<li class="fragment fade-left"><a href="#/sec-sm-3">Sicurezza dei dati personali</a></li>
+							<li class="fragment fade-left"><a href="#/sec-sm-4">Pericoli e come evitarli</a></li>
+						</ul>
+					</section>
+					<section id="sec-sm-1"></section>
+					<section id="sec-sm-2"></section>
+					<section id="sec-sm-3"></section>
+					<section id="sec-sm-4"></section>
+				</section>
+				 -->
+				<!-- Problem Solving
+				<section>
+					<section id="ps-index">
+						<h2><b>Il "risolvere problemi"</b></h2>
+						<img class="images upsizing" data-src="images/repair.gif">
+					</section>
+					<section id="ps-sm">
+						<p class="arguments-index fragment semi-fade-out">Indice:</p>
+						<ul>
+							<li class="fragment fade-left"><a href="#/ps-sm-1">Riconoscere il problema</a></li>
+							<li class="fragment fade-left"><a href="#/ps-sm-2">Saper cercare soluzioni in rete</a></li>
+							<li class="fragment fade-left"><a href="#/ps-sm-3"><b>DIY</b> in poche parole</a></li>
+						</ul>
+					</section>
+					<section id="ps-sm-1"></section>
+					<section id="ps-sm-2"></section>
+					<section id="ps-sm-3"></section>
+				</section>
+				 -->
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+
+			const dateObj = new Date();
+			var date = dateObj.getUTCDate() + "-" + dateObj.getUTCMonth() + 1 + "-" + dateObj.getUTCFullYear();
+			document.getElementById("date").innerHTML = date;
+		</script>
+	</body>
+</html>
