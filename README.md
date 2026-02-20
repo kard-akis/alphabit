@@ -1,3 +1,3 @@
 # Files del corso ALPHABIT sull'alfabetizzazione informatica
 
-Per compilare le slide, vedi [INSTALL.md](https://git.golem.linux.it/kardakis/alphabit/src/branch/main/INSTALL.md)
+Visita [questa pagina](https://wiki.golem.linux.it/Corso_ALPHABIT) per ulteriori informazioni.
